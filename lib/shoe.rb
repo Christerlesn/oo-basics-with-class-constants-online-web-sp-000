@@ -1,10 +1,10 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
 
-BRANDS = ["Uggs", "Rainbow"]
+BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"]
 
-  def initialize(brand)
-    @brand = brand
+  def initialize(BRANDS)
+    @brand = BRAND
   end
 
   def cobble
@@ -12,12 +12,12 @@ BRANDS = ["Uggs", "Rainbow"]
     puts "Your shoe is as good as new!"
   end
 
-  def BRANDS=(brand)
-    @BRANDS = brand
+  def brand=(brand)
+    @brand = BRAND
   end
 
-  def BRANDS
-    @BRANDS
+  def brand
+    @brand
   end
 
 end
