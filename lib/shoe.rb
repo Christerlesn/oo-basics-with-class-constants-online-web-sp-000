@@ -12,9 +12,8 @@ BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"]
     puts "Your shoe is as good as new!"
   end
 
-def brand=(brand)
-  brand == BRANDS
-  @brand = brand
+def brand=(BRANDS)
+  @brand = BRANDS
 end
 
 def brand
