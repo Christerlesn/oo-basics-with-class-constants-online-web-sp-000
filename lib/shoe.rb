@@ -13,8 +13,8 @@ BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"]
   end
 
 def brand=(brand)
-  @brand = brand
   brand == BRANDS
+  @brand = brand
 end
 
 def brand
