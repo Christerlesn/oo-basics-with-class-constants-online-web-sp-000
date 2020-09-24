@@ -4,7 +4,7 @@ class Shoe
 BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"]
 
   def initialize(BRANDS)
-    @brand = BRAND
+    @brand = BRANDS
   end
 
   def cobble
