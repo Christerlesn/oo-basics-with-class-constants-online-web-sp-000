@@ -1,7 +1,7 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
 
-BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"]
+BRANDS = ["Uggs", "Rainbow"]
 
   def initialize(brand)
     @brand = brand
